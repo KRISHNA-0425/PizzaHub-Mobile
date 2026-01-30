@@ -89,5 +89,6 @@ const adminSchema = new mongoose.Schema({
 const Customer = mongoose.model("Customer", customerSchema)
 const DeliveryPartner = mongoose.model("DeliveryPartner", deliveryPartnerSchema)
 const Admin = mongoose.model("Admin", adminSchema)
+const User = mongoose.model("User", userSchema)
 
-export { Customer, DeliveryPartner, Admin }
+export { Customer, DeliveryPartner, Admin, User }

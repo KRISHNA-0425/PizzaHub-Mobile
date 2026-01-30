@@ -1,11 +1,11 @@
 
 // Created a common index file to export all models
 
-import Branch from "./branch.model";
-import Category from "./category.model";
-import Order from "./order";
-import Product from "./product";
-import { Admin, Customer, DeliveryPartner } from "./user.model";
+import Branch from "./branch.model.js";
+import Category from "./category.model.js";
+import Order from "./order.model.js";
+import Product from "./product.model.js";
+import { Admin, Customer, DeliveryPartner, User } from "./user.model.js";
 
 export {
     Order,
@@ -14,5 +14,6 @@ export {
     DeliveryPartner,
     Admin,
     Product,
-    Category
+    Category,
+    User
 }
